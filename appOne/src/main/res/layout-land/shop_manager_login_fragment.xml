@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/txt_reset_manager_password" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:layout_marginTop="@dimen/setting_margin_top" android:text="@string/common_reset_manager_password" style="@style/system_settings_item" />
+    <TextView android:id="@id/txt_reset_pos_params" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/common_reset_pos_params" style="@style/system_settings_item" />
+    <TextView android:id="@id/txt_reset_flag" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/common_reset_flag" style="@style/system_settings_item" />
+    <TextView android:id="@id/txt_clear_all_key" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/clear_all_key" style="@style/system_settings_item" />
+    <TextView android:id="@id/txt_more_version_flag" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/common_more_version_flag" style="@style/system_settings_item" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:src="#ffd7d7d7" />
+</LinearLayout>

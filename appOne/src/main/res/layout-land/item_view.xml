@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp65">
+        <ImageView android:id="@id/item_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/common_dialog_horizontal_line" android:scaleType="fitXY" />
+        <TextView android:textSize="@dimen/sp22" android:textColor="#ff5e5e5e" android:id="@id/item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp30" android:text="ItemText" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/item_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp30" android:src="@drawable/common_select_uncheck" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</FrameLayout>

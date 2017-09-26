@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/dp0" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/sp30" android:textColor="#ffff0000" android:gravity="center" android:id="@id/tv_input_pin_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/sp20" android:textColor="#ff333333" android:id="@id/input_tip_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp12" android:text="@string/expense_collection_input_password" android:singleLine="true" />
+        <TextView android:textSize="@dimen/sp26" android:textColor="#ff333333" android:gravity="center" android:id="@id/txt_password" android:background="#ffffffff" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/dp40" android:layout_marginLeft="@dimen/dp13" android:layout_marginTop="@dimen/dp12" android:layout_marginRight="@dimen/dp13" />
+    </LinearLayout>
+    <TableLayout android:id="@id/keyboard_layout" android:layout_width="fill_parent" android:layout_height="@dimen/keyboard_number_height_91" android:stretchColumns="*">
+        <TableRow android:layout_height="@dimen/dp0" android:layout_weight="1.0">
+            <ImageView android:id="@id/iv_1" android:layout_width="@dimen/dp1" android:layout_height="wrap_content" android:src="@drawable/keyboard_1" android:scaleType="fitXY" />
+            <ImageView android:id="@id/iv_2" android:layout_width="@dimen/dp1" android:layout_height="wrap_content" android:src="@drawable/keyboard_2" android:scaleType="fitXY" />
+            <ImageView android:id="@id/iv_3" android:layout_width="@dimen/dp1" android:layout_height="wrap_content" android:src="@drawable/keyboard_3" android:scaleType="fitXY" />
+            <ImageView android:id="@id/iv_cancel" android:layout_width="@dimen/dp1" android:layout_height="wrap_content" android:src="@drawable/keyboard_cancel" android:scaleType="fitXY" />
+        </TableRow>
+        <TableRow android:layout_height="@dimen/dp0" android:layout_weight="1.0">
+            <ImageView android:id="@id/iv_4" android:layout_width="@dimen/dp1" android:layout_height="wrap_content" android:src="@drawable/keyboard_4" android:scaleType="fitXY" />
+            <ImageView android:id="@id/iv_5" android:layout_width="@dimen/dp1" android:layout_height="wrap_content" android:src="@drawable/keyboard_5" android:scaleType="fitXY" />
+            <ImageView android:id="@id/iv_6" android:layout_width="@dimen/dp1" android:layout_height="wrap_content" android:src="@drawable/keyboard_6" android:scaleType="fitXY" />
+            <ImageView android:id="@id/iv_backspeace" android:layout_width="@dimen/dp1" android:layout_height="wrap_content" android:src="@drawable/keyboard_bacespeace" android:scaleType="fitXY" />
+        </TableRow>
+        <TableRow android:layout_height="@dimen/dp0" android:layout_weight="2.0">
+            <TableLayout android:layout_width="@dimen/dp1" android:layout_height="fill_parent" android:stretchColumns="*" android:layout_span="3">
+                <TableRow android:layout_height="@dimen/dp0" android:layout_weight="1.0">
+                    <ImageView android:id="@id/iv_7" android:layout_width="@dimen/dp1" android:layout_height="wrap_content" android:src="@drawable/keyboard_7" android:scaleType="fitXY" />
+                    <ImageView android:id="@id/iv_8" android:layout_width="@dimen/dp1" android:layout_height="wrap_content" android:src="@drawable/keyboard_8" android:scaleType="fitXY" />
+                    <ImageView android:id="@id/iv_9" android:layout_width="@dimen/dp1" android:layout_height="wrap_content" android:src="@drawable/keyboard_9" android:scaleType="fitXY" />
+                </TableRow>
+                <TableRow android:layout_height="@dimen/dp0" android:layout_weight="1.0">
+                    <ImageView android:id="@id/iv_star" android:layout_width="@dimen/dp1" android:layout_height="wrap_content" android:src="@drawable/keyboard_number_null_left" android:scaleType="fitXY" />
+                    <ImageView android:id="@id/iv_0" android:layout_width="@dimen/dp1" android:layout_height="wrap_content" android:src="@drawable/keyboard_0" android:scaleType="fitXY" />
+                    <ImageView android:id="@id/iv_well" android:layout_width="@dimen/dp1" android:layout_height="wrap_content" android:src="@drawable/keyboard_number_null_right" android:scaleType="fitXY" />
+                </TableRow>
+            </TableLayout>
+            <ImageView android:id="@id/iv_enter" android:layout_width="@dimen/dp1" android:layout_height="fill_parent" android:src="@drawable/keyboard_confirm" android:scaleType="fitXY" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

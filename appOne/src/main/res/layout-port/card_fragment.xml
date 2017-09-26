@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_bg"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dp20"
+        android:paddingRight="@dimen/dp20">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_bill_detial"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dp30"
+            android:paddingLeft="@dimen/dp13"
+            android:paddingRight="@dimen/dp13">
+
+            <LinearLayout
+                android:id="@id/ll_money"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/dp15">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/common_pay_money"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_15" />
+
+                <View
+                    android:layout_width="0.0dip"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="1.0" />
+
+                <TextView
+                    android:id="@id/tv_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥0.01"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_15" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/dp15">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/common_pay_card"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_15" />
+
+                <View
+                    android:layout_width="0.0dip"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="1.0" />
+
+                <TextView
+                    android:id="@id/tv_pan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_15" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@id/tv_discount"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dp15"
+                android:textColor="@color/red_text"
+                android:textSize="@dimen/sp_15" />
+
+            <ImageView
+                android:id="@id/iv_line"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:paddingTop="@dimen/dp15"
+                android:src="@drawable/dotline"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@id/ll_real_money"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/dp15"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/common_real_money"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_21" />
+
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+
+                <TextView
+                    android:id="@id/tv_real_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥0.01"
+                    android:textColor="@color/money_text_color"
+                    android:textSize="@dimen/sp_21" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white">
+
+        <View
+            android:id="@id/view"
+            android:layout_width="1.0dip"
+            android:layout_height="1.0dip"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@id/tv_rf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="30.0dip"
+            android:layout_toLeftOf="@id/view"
+            android:drawableBottom="@drawable/shouyin_pic_huika"
+            android:gravity="center"
+            android:text="1.挥卡"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_15" />
+
+        <TextView
+            android:id="@id/tv_swipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="30.0dip"
+            android:layout_toRightOf="@id/view"
+            android:drawableBottom="@drawable/shouyin_pic_shuaka"
+            android:gravity="center"
+            android:text="2.刷卡"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_15" />
+
+        <ImageView
+            android:id="@id/iv_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20.0dip"
+            android:background="@drawable/down_arrow"
+            android:contentDescription="@string/app_name" />
+
+        <ImageView
+            android:id="@id/iv_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/up_arrow"
+            android:contentDescription="@string/app_name"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@id/tv_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableBottom="@drawable/shouyin_pic_chaka"
+            android:gravity="center"
+            android:text="3.插卡"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_15"
+            android:visibility="gone" />
+    </RelativeLayout>
+</LinearLayout>

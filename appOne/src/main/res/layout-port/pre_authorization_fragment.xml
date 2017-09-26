@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/txt_pre_authorization" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91" android:layout_marginTop="@dimen/dp20" android:text="@string/common_pre_authorization" style="@style/system_settings_item" />
+    <TextView android:id="@id/txt_pre_authorization_complete" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91" android:text="@string/common_pre_authorization_complete" style="@style/system_settings_item" />
+    <TextView android:id="@id/txt_repeal_pre_authorization" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91" android:text="@string/common_repeal_pre_authorization" style="@style/system_settings_item" />
+    <TextView android:id="@id/txt_repeal_pre_authorization_complete" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91" android:text="@string/common_repeal_pre_authorization_complete" style="@style/system_settings_item" />
+</LinearLayout>

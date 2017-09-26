@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="@dimen/dp0" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.newland.caishen.ui.view.SettingSwitchView android:id="@id/setting_other_input_main_pwd" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.newland.caishen.ui.view.SettingSwitchView android:id="@id/setting_other_input_cardno_byhand" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.newland.caishen.ui.view.SettingChooseView android:id="@id/setting_other_default_transtype" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.newland.caishen.ui.view.SettingEditView android:id="@id/setting_other_back_goods_max_amount" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.newland.caishen.ui.view.SettingSwitchView android:id="@id/setting_other_is_small_gene_auth" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.newland.caishen.ui.view.SettingSwitchView android:id="@id/setting_other_is_surpport_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.newland.caishen.ui.view.SettingEditView android:id="@id/setting_other_tip_percent" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.newland.caishen.ui.view.SettingChooseView android:id="@id/setting_other_auth_sale_mode" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <com.newland.caishen.ui.view.KeyboardNumber android:layout_gravity="bottom" android:id="@id/setting_other_keyboard_number" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

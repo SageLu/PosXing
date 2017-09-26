@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_params_ic" android:background="@color/white" android:paddingLeft="@dimen/dp13" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91">
+        <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:background="@null" android:paddingLeft="@dimen/dp13" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/setting_params_download_ic" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp14" android:src="@drawable/system_settings_nextpage" android:contentDescription="@string/app_name" />
+    </LinearLayout>
+    <ImageView android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:contentDescription="@string/app_name" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_params_double_free" android:background="@color/white" android:paddingLeft="@dimen/dp13" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91">
+        <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:background="@null" android:paddingLeft="@dimen/dp13" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/setting_params_download_double_free" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp14" android:src="@drawable/system_settings_nextpage" android:contentDescription="@string/app_name" />
+    </LinearLayout>
+    <ImageView android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:contentDescription="@string/app_name" />
+</LinearLayout>

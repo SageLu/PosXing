@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/h_waiting_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fl_main" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/sp50" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="right" android:id="@id/txt_time" android:background="@drawable/h_waiting_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp120" android:layout_marginRight="@dimen/dp36" android:text="17:00" />
+        <TextView android:textSize="@dimen/sp30" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="bottom" android:id="@id/txt_version" android:background="@drawable/h_waiting_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp92" android:layout_marginBottom="@dimen/dp52" android:text="V1.5.6" />
+        <TextView android:textSize="@dimen/sp34" android:textColor="#ff8d8d8d" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp332" android:layout_marginTop="@dimen/dp94" android:text="@string/swipe_card_input" />
+        <TextView android:textSize="@dimen/sp34" android:textColor="#ff8d8d8d" android:gravity="center" android:layout_gravity="bottom|center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp384" android:layout_marginBottom="@dimen/dp170" android:text="@string/insert_card" />
+    </FrameLayout>
+</FrameLayout>

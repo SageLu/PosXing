@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/h_input_pin_hourse" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp90" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:textSize="@dimen/sp32" android:textColor="#ff333333" android:gravity="center" android:id="@id/input_tip_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp40" android:text="@string/expense_collection_input_password" android:singleLine="true" />
+            <TextView android:enabled="true" android:textColor="#ff333333" android:gravity="center" android:id="@id/txt_password" android:background="@drawable/common_inputbox" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/dp50" android:layout_marginLeft="@dimen/dp33" android:layout_marginTop="@dimen/dp24" android:layout_marginRight="@dimen/dp33" android:layout_marginBottom="60.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/common_inputbox" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="40.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="6.0dip">
+                <ImageView android:id="@id/iv_card" android:background="@drawable/intput_password_card" android:layout_width="@dimen/dp30" android:layout_height="@dimen/dp30" android:layout_marginLeft="@dimen/dp23" android:layout_marginTop="@dimen/dp12" android:layout_marginRight="@dimen/dp20" />
+                <TextView android:textSize="@dimen/sp30" android:textColor="#ff0000ff" android:gravity="center" android:id="@id/tv_input_pin_card" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="卡号 " android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="6.0dip">
+                <ImageView android:id="@id/iv_amount" android:background="@drawable/input_password_consume" android:layout_width="@dimen/dp30" android:layout_height="@dimen/dp30" android:layout_marginLeft="@dimen/dp23" android:layout_marginTop="@dimen/dp11" android:layout_marginRight="@dimen/dp20" />
+                <TextView android:textSize="@dimen/sp30" android:textColor="#ffff0000" android:gravity="center" android:id="@id/tv_input_pin_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="金额" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/input_pin_right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/dp40" android:layout_weight="1.5">
+        <TextView android:textSize="@dimen/sp26" android:textColor="#ff333333" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp60" android:text="请在物理键盘上输入密码" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

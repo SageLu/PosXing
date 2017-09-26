@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/tv_local_trans" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91" android:layout_marginLeft="@dimen/dp13" android:layout_marginRight="@dimen/dp13" android:text="@string/common_local_trans" android:drawableLeft="@drawable/icon_local" android:drawableRight="@drawable/system_settings_nextpage" android:drawablePadding="@dimen/dp13" />
+        <ImageView android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:contentDescription="@string/app_name" />
+        <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/tv_online_trans" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91" android:layout_marginLeft="@dimen/dp13" android:layout_marginRight="@dimen/dp13" android:text="@string/common_online_trans" android:drawableLeft="@drawable/icon_lsjyjl" android:drawableRight="@drawable/system_settings_nextpage" android:drawablePadding="@dimen/dp13" />
+        <ImageView android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:contentDescription="@string/app_name" />
+    </LinearLayout>
+</LinearLayout>

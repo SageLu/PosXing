@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320.0dip"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/line_space_high"
+        android:background="@drawable/shape_white_sync_teminal_info"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/line_space_high"
+            android:background="@drawable/shape_gray_sync_teminal_info"
+            android:orientation="vertical"
+            android:paddingBottom="100.0dip">
+
+            <TextView
+                style="@style/common_textview_style"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/line_space_high"
+                android:text="提示"
+                android:textSize="@dimen/text_size_17_pt" />
+
+            <TextView
+                android:id="@id/dialog_text_msg"
+                style="@style/common_textview_style"
+                android:layout_marginLeft="@dimen/line_space_high"
+                android:layout_marginTop="@dimen/line_space_high"
+                android:text="是否确认同步信息?"
+                android:textSize="@dimen/text_size_12_pt" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@id/btn_cancel"
+                style="@style/common_textview_style"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="@dimen/line_space_high"
+                android:background="@drawable/selector_red_sync_teminal_info"
+                android:gravity="center"
+                android:paddingBottom="17.0dip"
+                android:paddingLeft="37.0dip"
+                android:paddingRight="37.0dip"
+                android:paddingTop="17.0dip"
+                android:text="取消"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@id/btn_continue"
+                style="@style/common_textview_style"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/line_space_high"
+                android:background="@drawable/selected_green_sync_teminal_info"
+                android:gravity="center"
+                android:paddingBottom="17.0dip"
+                android:paddingLeft="37.0dip"
+                android:paddingRight="37.0dip"
+                android:paddingTop="17.0dip"
+                android:text="继续"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@id/img_cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right|top"
+        android:src="@drawable/icon_dialog_cancel" />
+</FrameLayout>

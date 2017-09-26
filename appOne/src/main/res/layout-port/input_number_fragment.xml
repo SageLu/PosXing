@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_main" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp34" android:layout_marginLeft="@dimen/dp14" android:layout_marginRight="@dimen/dp14">
+            <EditText android:gravity="center|right" android:id="@id/et_content" android:background="@drawable/common_inputbox" android:paddingLeft="@dimen/dp10" android:paddingRight="@dimen/dp10" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/voucher_input" />
+            <TextView android:textSize="@dimen/sp16" android:textColor="#ff333333" android:layout_gravity="center|left" android:id="@id/txt_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp7" android:text="@string/common_voucher" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.newland.caishen.ui.view.KeyboardNumber android:id="@id/key_board_number" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

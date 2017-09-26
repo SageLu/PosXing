@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dp70">
+            <TextView android:textSize="@dimen/sp20" android:textColor="#ff333333" android:gravity="center" android:id="@id/txt_input_money_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/expense_collection_input_money" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp70">
+            <TextView android:textSize="@dimen/sp26" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="￥" android:singleLine="true" />
+            <View android:layout_width="@dimen/dp2" android:layout_height="0.0dip" />
+            <TextView android:textSize="@dimen/sp40" android:textColor="#ff333333" android:id="@id/txt_integer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:singleLine="true" />
+            <TextView android:textSize="@dimen/sp26" android:textColor="#ff333333" android:id="@id/txt_input_money_point" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="." android:singleLine="true" />
+            <TextView android:textSize="@dimen/sp26" android:textColor="#ff333333" android:id="@id/txt_decimal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00" android:singleLine="true" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.newland.caishen.ui.view.KeyboardNumber android:id="@id/key_board_number" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

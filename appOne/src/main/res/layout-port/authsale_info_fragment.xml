@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@id/ll_pan"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/setting_item_height_91"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp13">
+
+                <TextView
+                    android:layout_width="@dimen/dp100"
+                    android:layout_height="fill_parent"
+                    android:background="@null"
+                    android:gravity="center|left"
+                    android:singleLine="true"
+                    android:text="@string/bank_card"
+                    android:textColor="#ff333333"
+                    android:textSize="@dimen/sp15" />
+
+                <EditText
+                    android:id="@id/et_pan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:background="@null"
+                    android:gravity="center|left"
+                    android:hint="@string/common_input_card_no"
+                    android:inputType="number"
+                    android:maxLength="19"
+                    android:singleLine="true"
+                    android:textColor="#ff333333"
+                    android:textSize="@dimen/sp15" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dp1"
+                android:background="@color/gray_bg"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@id/ll_expdate"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/setting_item_height_91"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp13">
+
+                <TextView
+                    android:layout_width="@dimen/dp100"
+                    android:layout_height="fill_parent"
+                    android:background="@null"
+                    android:gravity="center|left"
+                    android:singleLine="true"
+                    android:text="@string/card_expdate"
+                    android:textColor="#ff333333"
+                    android:textSize="@dimen/sp15" />
+
+                <EditText
+                    android:id="@id/et_expdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:background="@null"
+                    android:gravity="center|left"
+                    android:hint="@string/expdate_tips"
+                    android:maxLength="4"
+                    android:singleLine="true"
+                    android:textColor="#ff333333"
+                    android:textSize="@dimen/sp15" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dp1"
+                android:background="@color/gray_bg"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/setting_item_height_91"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp13">
+
+                <TextView
+                    android:layout_width="@dimen/dp100"
+                    android:layout_height="fill_parent"
+                    android:background="@null"
+                    android:gravity="center|left"
+                    android:singleLine="true"
+                    android:text="@string/old_date"
+                    android:textColor="#ff333333"
+                    android:textSize="@dimen/sp15" />
+
+                <EditText
+                    android:id="@id/et_old_date"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:background="@null"
+                    android:gravity="center|left"
+                    android:hint="@string/old_date_tips"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:singleLine="true"
+                    android:textColor="#ff333333"
+                    android:textSize="@dimen/sp15" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dp1"
+                android:background="@color/gray_bg"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/setting_item_height_91"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp13">
+
+                <TextView
+                    android:layout_width="@dimen/dp100"
+                    android:layout_height="fill_parent"
+                    android:background="@null"
+                    android:gravity="center|left"
+                    android:singleLine="true"
+                    android:text="@string/old_auth_no"
+                    android:textColor="#ff333333"
+                    android:textSize="@dimen/sp15" />
+
+                <EditText
+                    android:id="@id/et_old_auth"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:background="@null"
+                    android:gravity="center|left"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:singleLine="true"
+                    android:textColor="#ff333333"
+                    android:textSize="@dimen/sp15" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dp1"
+                android:background="@color/gray_bg"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/setting_item_height_91"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp13">
+
+                <TextView
+                    android:layout_width="@dimen/dp100"
+                    android:layout_height="fill_parent"
+                    android:background="@null"
+                    android:gravity="center|left"
+                    android:singleLine="true"
+                    android:text="@string/bill_money"
+                    android:textColor="#ff333333"
+                    android:textSize="@dimen/sp15" />
+
+                <EditText
+                    android:id="@id/et_amt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:background="@null"
+                    android:gravity="center|left"
+                    android:inputType="numberDecimal"
+                    android:maxLength="11"
+                    android:singleLine="true"
+                    android:textColor="#ff333333"
+                    android:textSize="@dimen/sp15" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/dp1"
+                android:background="@color/gray_bg"
+                android:contentDescription="@string/app_name" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+
+    <TextView
+        android:id="@id/tv_authsale_enter"
+        style="@style/green_button" />
+</LinearLayout>

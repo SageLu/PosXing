@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/dp13" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91">
+                <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:background="@null" android:layout_width="@dimen/dp100" android:layout_height="fill_parent" android:text="@string/old_pwd_check" android:singleLine="true" />
+                <EditText android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:id="@id/et_old_pwd" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/please_input_now_pwd" android:singleLine="true" android:layout_weight="1.0" android:inputType="textPassword" android:imeOptions="actionNext" />
+            </LinearLayout>
+            <ImageView android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:contentDescription="@string/app_name" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/dp13" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91">
+                <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:background="@null" android:layout_width="@dimen/dp100" android:layout_height="fill_parent" android:text="@string/common_input_new_password" android:singleLine="true" />
+                <EditText android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:id="@id/et_new_pwd" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/pwd_request" android:singleLine="true" android:layout_weight="1.0" android:inputType="textPassword" android:imeOptions="actionNext" />
+            </LinearLayout>
+            <ImageView android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:contentDescription="@string/app_name" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/dp13" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91">
+                <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:background="@null" android:layout_width="@dimen/dp100" android:layout_height="fill_parent" android:text="@string/confirm_new_pwd" android:singleLine="true" />
+                <EditText android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:id="@id/et_confirm_new_pwd" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/please_input_pwd_again" android:singleLine="true" android:layout_weight="1.0" android:inputType="textPassword" android:imeOptions="actionDone" />
+            </LinearLayout>
+            <ImageView android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:contentDescription="@string/app_name" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:id="@id/tv_change_confirm" android:text="@string/change" style="@style/green_button" />
+</LinearLayout>

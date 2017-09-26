@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/dp13" android:paddingRight="@dimen/dp13" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91">
+                <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="交易订单号" android:singleLine="true" />
+                <EditText android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:id="@id/et_querycode" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp13" android:hint="请手动输入交易订单号" android:singleLine="true" android:layout_weight="1.0" android:imeOptions="actionDone" />
+                <ImageView android:id="@id/img_scan" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/icon_scan" />
+            </LinearLayout>
+            <ImageView android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:id="@id/tv_confirm" android:text="确认" style="@style/green_button" />
+</LinearLayout>

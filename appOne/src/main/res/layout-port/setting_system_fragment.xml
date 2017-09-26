@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.newland.caishen.ui.view.SettingEditView android:id="@id/sev_time_out" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_margin_top" />
+        <com.newland.caishen.ui.view.SettingEditView android:id="@id/sev_setting_system_serial_no" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91" />
+        <com.newland.caishen.ui.view.SettingEditView android:id="@id/sev_setting_system_batch_no" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91" />
+        <com.newland.caishen.ui.view.SettingEditView android:id="@id/sev_vsetting_system_max_trans_no" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91" />
+        <TextView android:id="@id/txt_setting_system_keypoard_password" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91" android:text="@string/setting_system_keypoard_password" style="@style/system_settings_item" />
+        <TextView android:id="@id/txt_setting_system_now_time" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91" android:text="@string/setting_system_now_time" style="@style/system_settings_item" />
+        <TextView android:id="@id/txt_setting_system_flash_card" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91" android:text="@string/setting_system_flash_card" style="@style/system_settings_item" />
+        <TextView android:id="@id/txt_setting_system_other" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91" android:text="@string/setting_system_other" style="@style/system_settings_item" />
+    </LinearLayout>
+    <com.newland.caishen.ui.view.KeyboardNumber android:layout_gravity="bottom" android:id="@id/key_board_number" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

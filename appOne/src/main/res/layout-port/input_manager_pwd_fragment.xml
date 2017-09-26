@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@color/white" android:paddingLeft="@dimen/dp13" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91">
+        <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:background="@null" android:layout_width="@dimen/dp100" android:layout_height="fill_parent" android:text="@string/charge_password" android:singleLine="true" />
+        <EditText android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:id="@id/et_password" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/input_charge_password" android:singleLine="true" android:layout_weight="1.0" android:inputType="textPassword" android:imeOptions="actionDone" />
+    </LinearLayout>
+    <ImageView android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:contentDescription="@string/app_name" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:id="@id/tv_manager_sure" style="@style/green_button" />
+</LinearLayout>

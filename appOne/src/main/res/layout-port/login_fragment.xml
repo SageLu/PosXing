@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/v_main" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/dp_13" android:layout_width="fill_parent" android:layout_height="@dimen/dp_49">
+            <TextView android:textSize="@dimen/sp_15" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_no" />
+            <EditText android:textSize="@dimen/sp_15" android:textColorHint="@color/hint_text_color" android:gravity="center_vertical" android:id="@id/et_user" android:background="@null" android:paddingLeft="@dimen/dp_13" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/please_input_user_no" android:singleLine="true" android:textAlignment="textStart" />
+            <ImageView android:paddingTop="@dimen/dp_18" android:paddingBottom="@dimen/dp_18" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/icon_help" android:contentDescription="@string/app_name" />
+        </LinearLayout>
+        <ImageView android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:contentDescription="@string/app_name" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/dp_13" android:layout_width="fill_parent" android:layout_height="@dimen/dp_49">
+            <TextView android:textSize="@dimen/sp_15" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/password" />
+            <EditText android:textSize="@dimen/sp_15" android:textColorHint="@color/hint_text_color" android:gravity="center_vertical" android:id="@id/et_password" android:background="@null" android:paddingLeft="@dimen/dp_13" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/please_input_pwd" android:singleLine="true" android:layout_weight="3.0" android:inputType="textPassword" android:textAlignment="textStart" />
+        </LinearLayout>
+        <ImageView android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:contentDescription="@string/app_name" />
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dp_44" android:layout_marginBottom="@dimen/dp_26">
+        <TextView android:textSize="@dimen/dp_17" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_cancel" android:background="@drawable/redbutton" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp_13" android:text="@string/common_cancel" android:layout_weight="1.0" />
+        <View android:layout_width="12.0dip" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/dp_17" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_sure" android:background="@drawable/greenbutton" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/dp_13" android:text="@string/common_sure" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/txt_setting_clear_rush_water" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:layout_marginTop="@dimen/setting_margin_top" android:text="@string/setting_clear_rush_water" style="@style/system_settings_item" />
+    <TextView android:id="@id/txt_setting_clear_trans_water" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/setting_clear_trans_water" style="@style/system_settings_item" />
+    <TextView android:id="@id/txt_clear_script_execution_result_of_the_water" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/clear_script_execution_result_of_the_water" style="@style/system_settings_item" />
+    <TextView android:id="@id/txt_clear_settlement_marks" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/clear_settlement_marks" style="@style/system_settings_item" />
+    <TextView android:id="@id/txt_clear_request_processing" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/clear_request_processing" style="@style/system_settings_item" />
+    <TextView android:id="@id/txt_setting_other_down_load" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/setting_other_down_load" style="@style/system_settings_item" />
+    <TextView android:id="@id/txt_setting_other_elecsign" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/setting_other_elecsign" style="@style/system_settings_item" />
+    <com.newland.caishen.ui.view.SettingSwitchView android:id="@id/ssv_setting_other_lbs" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:src="#ffd7d7d7" />
+</LinearLayout>

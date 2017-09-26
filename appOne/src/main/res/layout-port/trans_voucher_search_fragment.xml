@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/common_bg" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="#ffd9d9d9" android:layout_width="fill_parent" android:layout_height="@dimen/dp44">
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp14" android:layout_weight="1.0">
+            <EditText android:textSize="@dimen/sp17" android:textColor="#ff333333" android:layout_gravity="center" android:id="@id/et_content" android:background="@drawable/common_inputbox" android:paddingLeft="@dimen/dp50" android:layout_width="fill_parent" android:layout_height="@dimen/dp33" android:singleLine="true" />
+            <ImageView android:layout_gravity="center|left" android:id="@id/iv_search" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp8" android:src="@drawable/common_seach" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/sp17" android:textColor="#ff9b9b9b" android:layout_gravity="center_vertical" android:id="@id/txt_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp8" android:layout_marginRight="@dimen/dp14" android:text="@string/common_cancel" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/sp24" android:textColor="#ff898989" android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/dp0" android:layout_weight="1.0" />
+    <com.newland.caishen.ui.view.KeyboardNumber android:layout_gravity="bottom" android:id="@id/key_board_number" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp50">
+        <EditText android:textSize="@dimen/sp17" android:textColor="@color/black_text" android:id="@id/et_trace" android:background="@drawable/common_inputbox" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp35" android:layout_marginTop="@dimen/dp5" android:layout_marginRight="@dimen/dp35" android:layout_marginBottom="@dimen/dp5" android:hint="请输入凭证号" android:singleLine="true" android:maxLength="6" android:inputType="number" />
+        <ImageView android:layout_gravity="center|right" android:id="@id/iv_search" android:layout_width="@dimen/dp24" android:layout_height="@dimen/dp24" android:layout_marginRight="@dimen/dp50" android:src="@drawable/icon_search" />
+        <TextView android:layout_gravity="center|right" android:id="@id/tv_search" android:layout_width="@dimen/dp60" android:layout_height="fill_parent" android:layout_marginRight="@dimen/dp30" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp35">
+        <TextView android:textSize="15.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_data" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="交易日期" android:lines="1" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_voucher" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/common_voucher" android:lines="1" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_type" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="类型" android:lines="1" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_money" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/bill_money" android:lines="1" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_state" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="状态" android:lines="1" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/dp1" />
+    <ListView android:id="@id/lv_allwater" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

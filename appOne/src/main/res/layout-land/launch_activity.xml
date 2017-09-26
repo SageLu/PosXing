@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/h_launch_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.newland.caishen.ui.view.LoadingView android:id="@id/loading_view" android:layout_width="wrap_content" android:layout_height="@dimen/dp180" android:layout_marginTop="@dimen/dp100" android:layout_centerHorizontal="true" />
+    <com.newland.caishen.ui.view.CheckView android:id="@id/cv_print" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/loading_view" android:layout_centerHorizontal="true" />
+    <com.newland.caishen.ui.view.CheckView android:id="@id/cv_communication_port" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/cv_print" android:layout_centerHorizontal="true" />
+    <com.newland.caishen.ui.view.CheckView android:id="@id/cv_keyboard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/cv_communication_port" android:layout_centerHorizontal="true" />
+    <com.newland.caishen.ui.view.CheckView android:id="@id/cv_ic_card" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/cv_keyboard" android:layout_centerHorizontal="true" />
+    <TextView android:gravity="center" android:id="@id/txt_skip" android:background="@drawable/launch_retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp160" android:layout_marginBottom="@dimen/dp60" android:text="@string/test_skip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <TextView android:gravity="center" android:id="@id/txt_retry" android:background="@drawable/launch_retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp40" android:layout_marginBottom="@dimen/dp60" android:text="@string/test_retry" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

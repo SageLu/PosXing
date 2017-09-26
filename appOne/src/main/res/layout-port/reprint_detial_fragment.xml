@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/dp13" android:paddingRight="@dimen/dp13" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91">
+                <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:background="@null" android:layout_width="@dimen/dp100" android:layout_height="fill_parent" android:text="@string/detial_no" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|right" android:id="@id/tv_no" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ImageView android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:contentDescription="@string/app_name" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/dp13" android:paddingRight="@dimen/dp13" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91">
+                <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:background="@null" android:layout_width="@dimen/dp100" android:layout_height="fill_parent" android:text="@string/detail_data" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|right" android:id="@id/tv_data" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ImageView android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:contentDescription="@string/app_name" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/dp13" android:paddingRight="@dimen/dp13" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91">
+                <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:background="@null" android:layout_width="@dimen/dp100" android:layout_height="fill_parent" android:text="@string/detail_money" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|right" android:id="@id/tv_money" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ImageView android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:contentDescription="@string/app_name" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/dp13" android:paddingRight="@dimen/dp13" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91">
+                <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:background="@null" android:layout_width="@dimen/dp100" android:layout_height="fill_parent" android:text="@string/detail_type" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|right" android:id="@id/tv_type" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ImageView android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:contentDescription="@string/app_name" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/dp13" android:paddingRight="@dimen/dp13" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91">
+                <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:background="@null" android:layout_width="@dimen/dp100" android:layout_height="fill_parent" android:text="@string/detial_state" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|right" android:id="@id/tv_state" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ImageView android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:contentDescription="@string/app_name" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:id="@id/tv_finish" android:text="完成" style="@style/green_button" />
+    <TextView android:id="@id/tv_reprint" android:visibility="gone" android:text="补打单" style="@style/green_button" />
+</LinearLayout>

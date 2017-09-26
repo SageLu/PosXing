@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/dp13" android:paddingRight="@dimen/dp13" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91">
+                <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:background="@null" android:layout_width="@dimen/dp100" android:layout_height="fill_parent" android:text="@string/merchant_name" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|right" android:id="@id/tv_merchant_name" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ImageView android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:contentDescription="@string/app_name" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/dp13" android:paddingRight="@dimen/dp13" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91">
+                <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:background="@null" android:layout_width="@dimen/dp100" android:layout_height="fill_parent" android:text="@string/merchant_no1" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|right" android:id="@id/tv_merchantno1" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ImageView android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:contentDescription="@string/app_name" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/dp13" android:paddingRight="@dimen/dp13" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91">
+                <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:background="@null" android:layout_width="@dimen/dp100" android:layout_height="fill_parent" android:text="@string/merchant_no2" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|right" android:id="@id/tv_merchantno2" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ImageView android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:contentDescription="@string/app_name" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/dp13" android:paddingRight="@dimen/dp13" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91">
+                <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:background="@null" android:layout_width="@dimen/dp100" android:layout_height="fill_parent" android:text="@string/bill_pos_id" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|right" android:id="@id/tv_terminalno" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ImageView android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:contentDescription="@string/app_name" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/dp13" android:paddingRight="@dimen/dp13" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91">
+                <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:background="@null" android:layout_width="@dimen/dp100" android:layout_height="fill_parent" android:text="@string/batch_no" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|right" android:id="@id/tv_batchno" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ImageView android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:contentDescription="@string/app_name" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/dp13" android:paddingRight="@dimen/dp13" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91">
+                <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:background="@null" android:layout_width="@dimen/dp100" android:layout_height="fill_parent" android:text="@string/trace_no" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|right" android:id="@id/tv_orderno" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ImageView android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:contentDescription="@string/app_name" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:contentDescription="@string/app_name" />
+    <TextView android:id="@id/tv_merchant_return" android:text="@string/back" style="@style/green_button" />
+</LinearLayout>

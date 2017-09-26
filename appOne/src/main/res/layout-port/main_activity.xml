@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/nav_title_layout" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp50">
+        <RelativeLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp49">
+            <ImageView android:id="@id/iv_left" android:paddingLeft="@dimen/dp13" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/icon_back" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/sp19" android:textColor="@color/black" android:id="@id/txt_center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_main" android:layout_centerInParent="true" />
+            <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/iv_right" android:paddingRight="@dimen/dp15" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <ImageView android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/fl_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

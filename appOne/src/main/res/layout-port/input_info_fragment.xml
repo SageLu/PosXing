@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_main" android:background="@color/common_bg" android:paddingLeft="@dimen/dp14" android:paddingRight="@dimen/dp14" android:layout_width="fill_parent" android:layout_height="@dimen/dp0" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/sp24" android:textColor="#ff333333" android:layout_gravity="center" android:id="@id/txt_input_info_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp40" android:layout_marginBottom="@dimen/dp17" android:text="@string/common_voucher" />
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/common_inputbox" android:layout_width="fill_parent" android:layout_height="@dimen/dp33">
+            <TextView android:textSize="@dimen/sp17" android:textColor="#ff333333" android:layout_gravity="center_vertical" android:id="@id/txt_short_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp24" android:text="@string/common_card_no" />
+            <EditText android:id="@id/et_input_info_input" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp13" android:singleLine="true" android:imeOptions="actionDone" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.newland.caishen.ui.view.KeyboardNumber android:layout_gravity="bottom" android:id="@id/key_board_number" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

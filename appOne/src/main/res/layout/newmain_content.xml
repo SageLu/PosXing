@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_737375"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@id/cal_edit"
+            style="@style/text_white_20_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="start"
+            android:singleLine="true"
+            android:text=""
+            android:textCursorDrawable="@drawable/cosume_input_white" />
+
+        <TextView
+            android:id="@id/cal_edit_result"
+            android:layout_width="fill_parent"
+            android:layout_height="80.0dip"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:background="#00000000"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:padding="5.0dip"
+            android:singleLine="true"
+            android:text="￥ 0.00"
+            android:textColor="@color/white"
+            android:textCursorDrawable="@drawable/cosume_input_white"
+            android:textSize="45.0sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white">
+
+        <com.newland.caishen.ui.view.NumberKeyMainBoard
+            android:id="@id/keyBoard_num"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </RelativeLayout>
+</LinearLayout>

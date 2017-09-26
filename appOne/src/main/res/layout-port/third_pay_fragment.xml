@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/dp3" android:paddingRight="@dimen/dp3" android:layout_width="fill_parent" android:layout_height="@dimen/dp130">
+        <com.newland.caishen.ui.view.DotViewPager android:id="@id/dot_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_bill" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp10" android:layout_marginRight="@dimen/dp20" android:layout_marginBottom="@dimen/dp20" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_vip_money" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp15" android:layout_marginRight="@dimen/dp20">
+            <TextView android:textSize="@dimen/sp_18" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bill_merchant" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/sp_18" android:textColor="@color/black" android:id="@id/tv_merchant" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="大盘鸡" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_order_money" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp15" android:layout_marginRight="@dimen/dp20">
+            <TextView android:textSize="@dimen/sp_18" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bill_order_amt" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/sp_18" android:textColor="@color/black" android:id="@id/tv_order_money" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="￥0.00" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_dicount_amt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp15" android:layout_marginRight="@dimen/dp20">
+            <TextView android:textSize="@dimen/sp_18" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bill_dicount" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/sp_18" android:textColor="@color/black" android:id="@id/tv_dicount_money" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="￥0.00" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_line" android:background="@drawable/bill_dividing_line" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp30" android:layout_marginRight="@dimen/dp20" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_actual_money" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp20" android:layout_marginTop="@dimen/dp30" android:layout_marginRight="@dimen/dp20">
+            <TextView android:textSize="@dimen/sp_22" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="实际应收：" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/sp_22" android:textColor="@color/red_text2" android:id="@id/tv_actual_money" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="￥0.00" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textColor="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp20" android:layout_marginRight="@dimen/dp20" android:layout_marginBottom="@dimen/dp15" android:text="收款方式：" />
+    <RadioGroup android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dp44" android:layout_marginLeft="@dimen/dp20" android:layout_marginRight="@dimen/dp20" android:layout_marginBottom="@dimen/dp15">
+        <RadioButton android:gravity="center" android:id="@id/txt_bank" android:background="@drawable/page_radio" android:layout_width="0.0dip" android:layout_height="@dimen/dp44" android:button="@null" android:text="银行卡" android:layout_weight="1.0" />
+        <View android:id="@id/txt_gap_left" android:layout_width="@dimen/dp12" android:layout_height="fill_parent" />
+        <RadioButton android:gravity="center" android:id="@id/txt_alipay" android:background="@drawable/page_radio" android:layout_width="0.0dip" android:layout_height="@dimen/dp44" android:button="@null" android:text="支付宝" android:layout_weight="1.0" />
+        <View android:id="@id/txt_gap_right" android:layout_width="@dimen/dp12" android:layout_height="fill_parent" />
+        <RadioButton android:gravity="center" android:id="@id/txt_weichat" android:background="@drawable/page_radio" android:layout_width="0.0dip" android:layout_height="@dimen/dp44" android:button="@null" android:text="微信" android:layout_weight="1.0" />
+    </RadioGroup>
+    <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/txt_pay" android:background="@drawable/icon_nav_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp44" android:layout_marginLeft="@dimen/dp20" android:layout_marginRight="@dimen/dp20" android:layout_marginBottom="@dimen/dp15" android:text="立即收款" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/sp26" android:textColor="#ff000000" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/choose_date_hour" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/sp26" android:textColor="#ff000000" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/choose_date_minute" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/sp26" android:textColor="#ff000000" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/choose_date_second" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.newland.caishen.ui.view.wheelview.WheelView android:id="@id/ww_hour" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.newland.caishen.ui.view.wheelview.WheelView android:id="@id/ww_minute" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.newland.caishen.ui.view.wheelview.WheelView android:id="@id/ww_second" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

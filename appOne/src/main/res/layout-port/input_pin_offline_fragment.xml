@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/dp0" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/sp30" android:textColor="#ffff0000" android:gravity="center" android:id="@id/tv_input_pin_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/sp20" android:textColor="#ff333333" android:id="@id/input_tip_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp12" android:text="@string/expense_collection_input_password" android:singleLine="true" />
+        <TextView android:textSize="@dimen/sp26" android:textColor="#ff333333" android:gravity="center" android:id="@id/txt_password" android:background="#ffffffff" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/dp40" android:layout_marginLeft="@dimen/dp13" android:layout_marginTop="@dimen/dp12" android:layout_marginRight="@dimen/dp13" />
+    </LinearLayout>
+    <com.newland.caishen.ui.view.KeyboardNumber android:id="@id/key_board_number" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

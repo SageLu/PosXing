@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp90">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rl_title" android:background="#ff1c1c1c" android:layout_width="fill_parent" android:layout_height="@dimen/dp90">
+            <ImageView android:id="@id/iv_waiting" android:paddingLeft="@dimen/dp14" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/k_main_title_back" />
+            <ImageView android:id="@id/iv_left" android:paddingLeft="@dimen/dp14" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/k_main_title_back" />
+            <TextView android:textSize="@dimen/sp24" android:textColor="#ffffffff" android:id="@id/txt_center" android:paddingLeft="@dimen/dp14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_main" />
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/fl_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.newland.caishen.ui.view.progressbar.TimeOutProgressBar android:id="@id/time_out_progress_bar" android:layout_width="fill_parent" android:layout_height="@dimen/dp6" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/v_progress" android:background="#99000000" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLargeInverse" />
+            <TextView android:textSize="25.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/txt_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Author_way_items">
+        <item>POS</item>
+        <item>电话</item>
+        <item>小额代授权</item>
+    </string-array>
+    <string-array name="Inter_Org_items">
+        <item>CUP</item>
+        <item>VIS</item>
+        <item>MCC</item>
+        <item>MAE</item>
+        <item>JCB</item>
+        <item>DCC</item>
+        <item>AMX</item>
+    </string-array>
+    <integer-array name="credential_item_len">
+        <item>18</item>
+        <item>20</item>
+        <item>20</item>
+        <item>20</item>
+        <item>20</item>
+        <item>20</item>
+        <item>20</item>
+        <item>20</item>
+    </integer-array>
+    <string-array name="credential_items">
+        <item>身份证</item>
+        <item>军官证</item>
+        <item>护照</item>
+        <item>回乡证</item>
+        <item>台胞证</item>
+        <item>警官证</item>
+        <item>士兵证</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="credential_name_items">
+        <item>身份证</item>
+        <item>军官证</item>
+        <item>护照</item>
+        <item>回乡证</item>
+        <item>台胞证</item>
+        <item>警官证</item>
+        <item>士兵证</item>
+        <item>证件号</item>
+    </string-array>
+    <string-array name="installment_pay_mode">
+        <item>一次性支付</item>
+        <item>分期支付</item>
+    </string-array>
+    <string-array name="operator_manager_t">
+        <item>添加操作员</item>
+        <item>删除操作员</item>
+        <item>查询操作员</item>
+    </string-array>
+    <string-array name="trans_status">
+        <item></item>
+        <item>【已撤销】</item>
+        <item>【已调整】</item>
+        <item>【已退货】</item>
+        <item>【上送后被调整】</item>
+    </string-array>
+    <string-array name="trans_type">
+        <item>消费</item>
+        <item>圈存-指定账户</item>
+        <item>圈存-非指定账户</item>
+        <item>圈存-现金圈存</item>
+        <item>圈存撤销</item>
+        <item>未知</item>
+    </string-array>
+</resources>

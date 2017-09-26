@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/sp17" android:textColor="#ff333333" android:id="@id/txt_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp32" android:text="@string/choose_date_choose_date" />
+    <TextView android:textSize="@dimen/sp17" android:textColor="#ff777676" android:id="@id/txt_title_except" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/choose_date_next_string" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp43">
+        <EditText android:textSize="@dimen/sp17" android:textColor="#ff333333" android:gravity="center|right" android:id="@id/edit_text" android:background="@drawable/common_inputbox" android:paddingRight="50.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp14" android:layout_marginTop="@dimen/dp10" android:layout_marginRight="@dimen/dp14" android:singleLine="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/sp17" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/common_date" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/iv_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/common_cancel" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.newland.caishen.ui.view.wheelview.DateWheelView2 android:id="@id/date_wheel_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Button android:textColor="#ffffffff" android:id="@id/button" android:background="@drawable/commom_next" android:layout_width="fill_parent" android:layout_height="@dimen/dp38" android:layout_marginLeft="@dimen/dp14" android:layout_marginTop="@dimen/dp30" android:layout_marginRight="@dimen/dp14" android:text="@string/common_next" />
+</LinearLayout>

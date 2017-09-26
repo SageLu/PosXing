@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp49">
+        <TextView android:textSize="@dimen/sp19" android:textColor="@color/black" android:id="@id/txt_bind_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="输入激活码" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ImageView android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_input" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:background="@color/white" android:paddingLeft="@dimen/dp13" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91">
+            <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:background="@null" android:layout_width="@dimen/dp100" android:layout_height="fill_parent" android:text="输入激活码" android:singleLine="true" />
+            <EditText android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:id="@id/et_active" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:maxLength="10" android:layout_weight="1.0" android:imeOptions="actionDone" />
+        </LinearLayout>
+        <ImageView android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:contentDescription="@string/app_name" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:id="@id/tv_bind_enter" android:text="下一步" style="@style/green_button" />
+    </LinearLayout>
+</LinearLayout>

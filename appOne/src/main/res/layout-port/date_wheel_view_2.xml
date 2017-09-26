@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/sp18" android:textColor="#ff000000" android:gravity="center" android:id="@id/txt_year" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/choose_date_year" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/sp18" android:textColor="#ff000000" android:gravity="center" android:id="@id/txt_mouth" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/choose_date_mouth" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/sp18" android:textColor="#ff000000" android:gravity="center" android:id="@id/txt_day" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/choose_date_day" android:layout_weight="1.0" />
+    </LinearLayout>
+    <FrameLayout android:background="@drawable/common_inputbox" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/common_inputbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp1" android:layout_marginTop="@dimen/dp10">
+            <com.newland.caishen.ui.view.wheelview.WheelView android:id="@id/ww_year" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <com.newland.caishen.ui.view.wheelview.WheelView android:id="@id/ww_mouth" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <com.newland.caishen.ui.view.wheelview.WheelView android:id="@id/ww_day" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

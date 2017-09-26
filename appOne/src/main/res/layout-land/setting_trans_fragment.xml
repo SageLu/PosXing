@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/txt_setting_trans_switch" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:layout_marginTop="@dimen/setting_margin_top" android:text="@string/setting_trans_switch" style="@style/system_settings_item" />
+    <TextView android:id="@id/txt_setting_trans_input_password" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/setting_trans_input_password" style="@style/system_settings_item" />
+    <TextView android:id="@id/txt_setting_trans_swipe" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/setting_trans_swipe" style="@style/system_settings_item" />
+    <TextView android:id="@id/txt_setting_trans_closing" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/setting_trans_closing" style="@style/system_settings_item" />
+    <TextView android:id="@id/txt_setting_trans_off_line" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/setting_trans_off_line" style="@style/system_settings_item" />
+    <TextView android:id="@id/txt_setting_trans_retry_no" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/setting_trans_retry_no" style="@style/system_settings_item" />
+    <TextView android:id="@id/txt_setting_trans_other" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/setting_trans_other" style="@style/system_settings_item" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:src="#ffd7d7d7" />
+</LinearLayout>

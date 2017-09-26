@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:background="@drawable/bill_bg" android:layout_width="@dimen/dp0" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp128" android:layout_marginTop="70.0dip" android:layout_marginRight="@dimen/dp26" android:stretchColumns="*" android:layout_weight="1.0">
+        <TableRow android:layout_marginTop="@dimen/dp17">
+            <TextView android:textSize="@dimen/sp16" android:textColor="#ff8a8a8a" android:paddingLeft="@dimen/dp36" android:layout_width="@dimen/dp110" android:layout_height="wrap_content" android:text="@string/bill_merchant_name" />
+            <TextView android:textSize="@dimen/sp16" android:textColor="#ff333333" android:id="@id/txt_merchant_name" android:layout_width="@dimen/dp110" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow android:layout_marginTop="@dimen/dp17">
+            <TextView android:textSize="@dimen/sp16" android:textColor="#ff8a8a8a" android:paddingLeft="@dimen/dp36" android:layout_width="@dimen/dp110" android:layout_height="wrap_content" android:text="@string/bill_merchant_no" />
+            <TextView android:textSize="@dimen/sp16" android:textColor="#ff333333" android:id="@id/txt_merchant_no" android:layout_width="@dimen/dp110" android:layout_height="wrap_content" android:singleLine="true" />
+        </TableRow>
+        <TableRow android:layout_marginTop="@dimen/dp10">
+            <TextView android:textSize="@dimen/sp16" android:textColor="#ff8a8a8a" android:paddingLeft="@dimen/dp36" android:layout_width="@dimen/dp110" android:layout_height="wrap_content" android:text="@string/bill_pos_id" />
+            <TextView android:textSize="@dimen/sp16" android:textColor="#ff333333" android:id="@id/txt_pos_id" android:layout_width="@dimen/dp110" android:layout_height="wrap_content" android:singleLine="true" />
+        </TableRow>
+        <TableRow android:layout_marginTop="@dimen/dp16">
+            <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:layout_marginLeft="@dimen/dp7" android:layout_marginRight="@dimen/dp7" android:src="@drawable/bill_dividing_line" android:scaleType="centerCrop" android:layout_span="2" />
+        </TableRow>
+        <TableRow android:layout_marginTop="@dimen/dp16">
+            <TextView android:textSize="@dimen/sp16" android:textColor="#ff8a8a8a" android:paddingLeft="@dimen/dp36" android:layout_width="@dimen/dp110" android:layout_height="wrap_content" android:text="@string/common_card_no" />
+            <TextView android:textSize="@dimen/sp21" android:textColor="#ff333333" android:id="@id/txt_card_no" android:layout_width="@dimen/dp110" android:layout_height="wrap_content" android:singleLine="true" />
+        </TableRow>
+        <TableRow android:layout_marginTop="@dimen/dp17">
+            <TextView android:textSize="@dimen/sp16" android:textColor="#ff8a8a8a" android:paddingLeft="@dimen/dp36" android:layout_width="@dimen/dp110" android:layout_height="wrap_content" android:text="@string/common_voucher" />
+            <TextView android:textSize="@dimen/sp16" android:textColor="#ff333333" android:id="@id/txt_voucher" android:layout_width="@dimen/dp110" android:layout_height="wrap_content" android:singleLine="true" />
+        </TableRow>
+        <TableRow android:layout_marginTop="@dimen/dp17">
+            <TextView android:textSize="@dimen/sp16" android:textColor="#ff8a8a8a" android:paddingLeft="@dimen/dp36" android:layout_width="@dimen/dp110" android:layout_height="wrap_content" android:text="@string/common_auth_code" />
+            <TextView android:textSize="@dimen/sp16" android:textColor="#ff333333" android:id="@id/txt_auth_code" android:layout_width="@dimen/dp110" android:layout_height="wrap_content" android:singleLine="true" />
+        </TableRow>
+        <TableRow android:layout_marginTop="@dimen/dp17">
+            <TextView android:textSize="@dimen/sp16" android:textColor="#ff8a8a8a" android:paddingLeft="@dimen/dp36" android:layout_width="@dimen/dp110" android:layout_height="wrap_content" android:text="@string/bill_ref_no" />
+            <TextView android:textSize="@dimen/sp16" android:textColor="#ff333333" android:id="@id/txt_ref_no" android:layout_width="@dimen/dp110" android:layout_height="wrap_content" android:singleLine="true" />
+        </TableRow>
+        <TableRow android:layout_marginTop="@dimen/dp17">
+            <TextView android:textSize="@dimen/sp16" android:textColor="#ff8a8a8a" android:paddingLeft="@dimen/dp36" android:layout_width="@dimen/dp110" android:layout_height="wrap_content" android:text="@string/bill_date" />
+            <TextView android:textSize="@dimen/sp16" android:textColor="#ff333333" android:id="@id/txt_date" android:layout_width="@dimen/dp110" android:layout_height="wrap_content" android:singleLine="true" />
+        </TableRow>
+        <TableRow android:layout_marginTop="@dimen/dp17">
+            <TextView android:textSize="@dimen/sp16" android:textColor="#ff8a8a8a" android:id="@id/txt_title_ec_percher" android:paddingLeft="@dimen/dp36" android:layout_width="@dimen/dp110" android:layout_height="wrap_content" android:text="@string/bill_ec_percher" />
+            <TextView android:textSize="@dimen/sp16" android:textColor="#ff333333" android:id="@id/txt_ec_percher" android:layout_width="@dimen/dp110" android:layout_height="wrap_content" android:singleLine="true" />
+        </TableRow>
+        <TableRow android:layout_marginTop="@dimen/dp16">
+            <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:layout_marginLeft="@dimen/dp7" android:layout_marginRight="@dimen/dp7" android:src="@drawable/bill_dividing_line" android:scaleType="centerCrop" android:layout_span="2" />
+        </TableRow>
+        <TableRow android:layout_marginTop="@dimen/dp16">
+            <TextView android:textSize="@dimen/sp16" android:textColor="#ff8a8a8a" android:gravity="top" android:paddingLeft="@dimen/dp36" android:layout_width="@dimen/dp110" android:layout_height="wrap_content" android:text="@string/bill_money" />
+            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/ll_amount" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp20" android:layout_marginBottom="@dimen/dp36">
+                <TextView android:textSize="@dimen/sp34" android:textColor="#ffee5757" android:gravity="center|left" android:id="@id/txt_integer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:singleLine="true" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/common_bg" android:layout_width="@dimen/dp0" android:layout_height="wrap_content" android:layout_marginTop="90.0dip" android:layout_weight="1.0">
+        <ImageView android:textSize="@dimen/sp16" android:textColor="#ff408ed6" android:layout_gravity="center_horizontal" android:id="@id/tv_trans_result_logo" android:background="@drawable/h_print_receicp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp50" android:layout_marginBottom="@dimen/dp46" android:drawablePadding="@dimen/dp15" />
+        <TextView android:textSize="@dimen/sp36" android:textColor="#ff408ed6" android:layout_gravity="center_horizontal" android:id="@id/tv_trans_result_content" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/dp15" />
+        <TextView android:textSize="@dimen/sp36" android:textColor="#ffffffff" android:gravity="center" android:id="@id/txt_repeal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp38" android:layout_marginLeft="@dimen/dp14" android:layout_marginTop="@dimen/dp12" android:layout_marginRight="@dimen/dp14" android:layout_marginBottom="@dimen/dp12" android:text="@string/common_repeal_pre_authorization" />
+        <Button android:textSize="@dimen/sp28" android:textColor="#ffffffff" android:gravity="center" android:id="@id/btn_result_return_main" android:background="@drawable/trans_succes_btn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp54" android:layout_margin="@dimen/dp50" android:text="@string/common_sure" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_manager_pwd" android:paddingLeft="@dimen/dp13" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91">
+            <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:background="@null" android:paddingLeft="@dimen/dp13" android:layout_width="@dimen/dp0" android:layout_height="fill_parent" android:text="主管密码修改" android:singleLine="true" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp14" android:src="@drawable/system_settings_nextpage" />
+        </LinearLayout>
+        <ImageView android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_operator_repwd" android:paddingLeft="@dimen/dp13" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91">
+            <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:background="@null" android:paddingLeft="@dimen/dp13" android:layout_width="@dimen/dp0" android:layout_height="fill_parent" android:text="操作员密码重置" android:singleLine="true" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp14" android:src="@drawable/system_settings_nextpage" />
+        </LinearLayout>
+        <ImageView android:background="@color/gray_line" android:layout_width="fill_parent" android:layout_height="@dimen/dp1" />
+    </LinearLayout>
+</LinearLayout>

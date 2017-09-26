@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tv_short_title" android:layout_marginTop="@dimen/dp60" android:text="@string/cancel_trans_title" style="@style/succ_result" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dp35" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/dp25" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dp6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/sp15" android:textColor="#ff8f8f8f" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/transaction_money" android:singleLine="true" />
+            <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:id="@id/tv_amt" android:paddingLeft="@dimen/dp6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dp6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/sp15" android:textColor="#ff8f8f8f" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/tip_card_no" android:singleLine="true" />
+            <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:id="@id/tv_pan" android:paddingLeft="@dimen/dp6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dp6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/sp15" android:textColor="#ff8f8f8f" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/trans_type" android:singleLine="true" />
+            <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:id="@id/tv_transType" android:paddingLeft="@dimen/dp6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dp6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/sp15" android:textColor="#ff8f8f8f" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/trans_date" android:singleLine="true" />
+            <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:id="@id/tv_date" android:paddingLeft="@dimen/dp6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dp6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/sp15" android:textColor="#ff8f8f8f" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/detail_batch_no" android:singleLine="true" />
+            <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:id="@id/tv_batch" android:paddingLeft="@dimen/dp6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dp6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/sp15" android:textColor="#ff8f8f8f" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/detail_trace_no" android:singleLine="true" />
+            <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:id="@id/tv_trace" android:paddingLeft="@dimen/dp6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dp6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/sp15" android:textColor="#ff8f8f8f" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/detail_auth_no" android:singleLine="true" />
+            <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:id="@id/tv_auth" android:paddingLeft="@dimen/dp6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dp6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/sp15" android:textColor="#ff8f8f8f" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/detail_ref_no" android:singleLine="true" />
+            <TextView android:textSize="@dimen/sp15" android:textColor="#ff333333" android:gravity="center|left" android:id="@id/tv_ref" android:paddingLeft="@dimen/dp6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@id/tv_water_enter" style="@style/green_button" />
+</LinearLayout>

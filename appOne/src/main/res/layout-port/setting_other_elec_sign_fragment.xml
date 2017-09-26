@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.newland.caishen.ui.view.SettingEditView android:id="@id/sev_elec_timeout" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91" android:layout_marginTop="@dimen/setting_margin_top" />
+        <com.newland.caishen.ui.view.SettingEditView android:id="@id/sev_elec_resign_times" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91" />
+        <com.newland.caishen.ui.view.SettingEditView android:id="@id/sev_max_elec_count" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91" />
+        <com.newland.caishen.ui.view.SettingSwitchView android:id="@id/ssv_is_support_elecsign" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91" />
+        <com.newland.caishen.ui.view.SettingSwitchView android:id="@id/ssv_is_confirm_elecsign" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91" />
+        <com.newland.caishen.ui.view.SettingSwitchView android:id="@id/ssv_is_elecsign_input_phone" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91" />
+    </LinearLayout>
+    <com.newland.caishen.ui.view.KeyboardNumber android:layout_gravity="bottom" android:id="@id/key_board_number" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

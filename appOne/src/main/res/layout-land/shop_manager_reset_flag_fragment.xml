@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/txt_clear_reverse_flag" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:layout_marginTop="@dimen/setting_margin_top" android:text="@string/common_clear_reverse_flag" style="@style/system_settings_item" />
+    <TextView android:id="@id/txt_set_no_sign" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/common_set_no_sign" style="@style/system_settings_item" />
+    <TextView android:id="@id/txt_set_signed" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/common_set_signed" style="@style/system_settings_item" />
+    <TextView android:id="@id/txt_clear_script_flag" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/common_clear_shell_flag" style="@style/system_settings_item" />
+    <TextView android:id="@id/txt_clear_emv" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/common_clear_emv" style="@style/system_settings_item" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:src="#ffd7d7d7" />
+</LinearLayout>

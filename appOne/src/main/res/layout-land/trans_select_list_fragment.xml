@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp12">
+        <android.support.v4.view.ViewPager android:layout_gravity="center_vertical" android:id="@id/view_pager" android:layout_width="@dimen/dp550" android:layout_height="@dimen/dp600" android:layout_marginLeft="@dimen/dp134" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/slid_prompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="276.0dip">
+            <ImageView android:textSize="@dimen/sp16" android:textColor="#ff8a8a8a" android:background="@drawable/slid_left" android:layout_width="@dimen/dp30" android:layout_height="@dimen/dp30" android:layout_marginRight="22.0dip" />
+            <TextView android:textSize="@dimen/dp24" android:textColor="#ff8a8a8a" android:gravity="center" android:layout_width="@dimen/dp122" android:layout_height="@dimen/dp30" android:text="左右滑翻页" android:singleLine="true" />
+            <ImageView android:textSize="@dimen/sp16" android:textColor="#ff8a8a8a" android:background="@drawable/slid_right" android:layout_width="@dimen/dp30" android:layout_height="@dimen/dp30" android:layout_marginLeft="22.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="right" android:orientation="vertical" android:id="@id/ll_right" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/h_trans_select_icon" />
+        <TextView android:textSize="@dimen/sp26" android:textColor="#fff8b42c" android:gravity="center" android:id="@id/txt_search_waters_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp40" android:text="@string/common_select_success" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp40">
+            <TextView android:textSize="@dimen/sp26" android:textColor="#ffffffff" android:gravity="center" android:id="@id/txt_back_page" android:background="@drawable/common_btn_blue" android:layout_width="@dimen/dp0" android:layout_height="@dimen/dp58" android:layout_marginLeft="@dimen/dp40" android:text="@string/common_back_page" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/sp26" android:textColor="#ffffffff" android:gravity="center" android:id="@id/txt_print" android:background="@drawable/common_btn_blue" android:layout_width="@dimen/dp0" android:layout_height="@dimen/dp58" android:layout_marginLeft="@dimen/dp40" android:layout_marginRight="@dimen/dp40" android:text="@string/common_print" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/sp26" android:textColor="#ffffffff" android:gravity="center" android:id="@id/txt_next_page" android:background="@drawable/common_btn_blue" android:layout_width="@dimen/dp0" android:layout_height="@dimen/dp58" android:layout_marginRight="@dimen/dp40" android:text="@string/common_next_page" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

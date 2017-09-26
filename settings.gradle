@@ -1,0 +1,1 @@
+include ':appOne', ':AIDLremoteservice', ':AIDLremoteclient', ':AddressSelector-master', ':adressselectorlib'

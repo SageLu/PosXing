@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/setting_shop" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:layout_marginTop="@dimen/dp20" android:text="@string/setting_shop" style="@style/system_settings_item" />
+    <TextView android:id="@id/setting_trans" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/setting_trans" style="@style/system_settings_item" />
+    <TextView android:id="@id/setting_system" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/setting_system" style="@style/system_settings_item" />
+    <TextView android:id="@id/setting_communication" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/setting_communication" style="@style/system_settings_item" />
+    <TextView android:id="@id/setting_secret_key" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/setting_secret_key" style="@style/system_settings_item" />
+    <TextView android:id="@id/setting_password" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/setting_password" style="@style/system_settings_item" />
+    <TextView android:id="@id/setting_print_manage" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/setting_print_manage" style="@style/system_settings_item" />
+    <TextView android:id="@id/setting_other" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/setting_other" style="@style/system_settings_item" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/dp1" android:src="#ffd7d7d7" />
+</LinearLayout>

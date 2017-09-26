@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="right" android:id="@id/iv_switch_scan_on" android:background="@drawable/scan_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginRight="30.0dip" android:contentDescription="@string/app_name" />
+    <RelativeLayout android:id="@id/scan" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_pos" android:background="@drawable/nlscan_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_centerHorizontal="true" android:contentDescription="@string/app_name" />
+        <ImageView android:id="@id/iv_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="135.0dip" android:layout_marginRight="110.0dip" android:src="@drawable/nlphone" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+        <ImageView android:id="@id/iv_line" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="135.0dip" android:layout_marginRight="110.0dip" android:src="@drawable/nlline" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="20.0sp" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/front_scan_tip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp35">
+        <TextView android:textSize="15.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_data" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="交易类型" android:lines="1" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_voucher" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="总笔数" android:lines="1" android:layout_weight="1.0" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_type" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="总金额" android:lines="1" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/dp1" />
+    <ListView android:id="@id/account_view" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

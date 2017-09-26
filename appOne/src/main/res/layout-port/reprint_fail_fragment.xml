@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/dp240" android:layout_marginTop="@dimen/dp35" android:src="@drawable/icon_query_fail" />
+    <TextView android:textSize="@dimen/sp19" android:textColor="@color/black" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="对不起，订单信息不存在！" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:id="@id/tv_back" android:text="返回" style="@style/green_button" />
+</LinearLayout>

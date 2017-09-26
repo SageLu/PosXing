@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.newland.caishen.ui.view.SettingEditView android:id="@id/setting_offline_up_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_margin_top" />
+    <com.newland.caishen.ui.view.SettingChooseView android:id="@id/setting_offline_up_choose" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/dp0" android:layout_weight="1.0" />
+    <com.newland.caishen.ui.view.KeyboardNumber android:layout_gravity="bottom" android:id="@id/setting_keyboard_number_offline_up" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

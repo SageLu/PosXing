@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <requestFocus />
+    <RelativeLayout android:id="@id/ll_main" android:background="@drawable/bg_code_tip" android:paddingBottom="@dimen/dp20" android:layout_width="wrap_content" android:layout_height="@dimen/dp280" android:minWidth="@dimen/dp330">
+        <TextView android:textSize="@dimen/sp21" android:textColor="#ff333333" android:id="@id/txt_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp30" android:text="@string/common_tip_title" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/sp17" android:textColor="#ff5e5e5e" android:id="@id/txt_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp20" android:text="" android:layout_below="@id/txt_title" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="@dimen/dp25" android:paddingRight="@dimen/dp25" android:layout_width="fill_parent" android:layout_height="@dimen/dp50" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <Button android:textSize="@dimen/sp17" android:textColor="@color/white" android:id="@id/txt_cancel" android:background="@drawable/redbutton" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/common_cancel" android:singleLine="true" android:layout_weight="1.0" />
+            <ImageView android:id="@id/iv_line" android:background="@color/white" android:layout_width="@dimen/dp25" android:layout_height="fill_parent" />
+            <Button android:textSize="@dimen/sp17" android:textColor="@color/white" android:id="@id/txt_sure" android:background="@drawable/greenbutton" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/common_sure" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout android:layout_gravity="center|right|top" android:id="@id/fl_cancle" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:visibility="visible" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="7.0dip" android:src="@drawable/icon_dialog_cancel_gray" />
+    </FrameLayout>
+</FrameLayout>

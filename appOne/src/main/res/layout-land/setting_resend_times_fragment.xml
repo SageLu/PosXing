@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.newland.caishen.ui.view.SettingEditView android:id="@id/edit_view1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_margin_top" />
+    <com.newland.caishen.ui.view.SettingEditView android:id="@id/edit_view2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.newland.caishen.ui.view.SettingEditView android:id="@id/edit_view3" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.newland.caishen.ui.view.SettingEditView android:id="@id/edit_view4" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/dp0" android:layout_weight="1.0" />
+    <com.newland.caishen.ui.view.KeyboardNumber android:id="@id/setting_keyboeard_number" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

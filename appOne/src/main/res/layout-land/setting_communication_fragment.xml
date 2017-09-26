@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="@dimen/dp0" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.newland.caishen.ui.view.SettingEditView android:id="@id/sev_out_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_margin_top" />
+            <com.newland.caishen.ui.view.SettingSwitchView android:id="@id/ssv_http" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.newland.caishen.ui.view.SettingChooseView android:id="@id/scv_connect_type" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:id="@id/txt_cdma" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/connect_type_cdma" style="@style/system_settings_item" />
+            <TextView android:id="@id/txt_gprs" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/connect_type_gprs" style="@style/system_settings_item" />
+            <TextView android:id="@id/txt_wifi" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_81" android:text="@string/connect_type_wifi" style="@style/system_settings_item" />
+        </LinearLayout>
+    </ScrollView>
+    <com.newland.caishen.ui.view.KeyboardNumber android:layout_gravity="bottom" android:id="@id/key_board_number" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

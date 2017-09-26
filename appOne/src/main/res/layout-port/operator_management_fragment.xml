@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/btnMainChanggePwd" android:layout_width="fill_parent" android:layout_height="@dimen/dp45" android:text="修改主管密码" style="@style/system_settings_item" />
+    <TextView android:id="@id/btnOperatorAdd" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91" android:text="增加操作员" style="@style/system_settings_item" />
+    <TextView android:id="@id/btnOperatorDel" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91" android:text="删除操作员" style="@style/system_settings_item" />
+    <TextView android:id="@id/btnOperatorSearch" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91" android:text="查询操作员" style="@style/system_settings_item" />
+    <TextView android:id="@id/btnOperatorChangePwd" android:layout_width="fill_parent" android:layout_height="@dimen/setting_item_height_91" android:text="修改操作员密码" style="@style/system_settings_item" />
+</LinearLayout>

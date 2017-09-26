@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_marginTop="@dimen/dp10" android:layout_marginBottom="@dimen/dp15" android:text="@string/update_succ" style="@style/succ_result" />
+    <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp5" android:text="@string/update_tips" android:singleLine="true" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dp35" android:layout_width="fill_parent" android:layout_height="0.0dip">
+            <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dp6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="商户名:" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:id="@id/tv_merchantName" android:paddingLeft="@dimen/dp6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dp6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="银行卡余额查询:" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:id="@id/tv_balance" android:paddingLeft="@dimen/dp6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dp6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="预授权:" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:id="@id/tv_preauth" android:paddingLeft="@dimen/dp6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dp6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="预授权撤销:" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:id="@id/tv_void_preauth" android:paddingLeft="@dimen/dp6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dp6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="预授权完成（请求）:" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:id="@id/tv_authsale" android:paddingLeft="@dimen/dp6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dp6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="预授权完成撤销:" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:id="@id/tv_void_authsale" android:paddingLeft="@dimen/dp6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dp6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="消费:" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:id="@id/tv_sale" android:paddingLeft="@dimen/dp6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dp6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="消费撤销:" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:id="@id/tv_voidsale" android:paddingLeft="@dimen/dp6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dp6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="退货:" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:id="@id/tv_refund" android:paddingLeft="@dimen/dp6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dp6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="扫码支付(扫手机）-微信:" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:id="@id/tv_scanphone_weixin" android:paddingLeft="@dimen/dp6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dp6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="扫码支付（扫手机）-支付宝:" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:id="@id/tv_scanphone_alipay" android:paddingLeft="@dimen/dp6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dp6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="扫码支付（扫POS）-微信:" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:id="@id/tv_scanpos_weixin" android:paddingLeft="@dimen/dp6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dp6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="扫码支付（扫POS）-支付宝:" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:id="@id/tv_scanpos_alipay" android:paddingLeft="@dimen/dp6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dp6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="扫码支付退款:" android:singleLine="true" />
+                <TextView android:textSize="@dimen/sp15" android:textColor="@color/gray_text" android:gravity="center|left" android:id="@id/tv_scan_refund" android:paddingLeft="@dimen/dp6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:id="@id/tv_update_confirm" style="@style/green_button" />
+</LinearLayout>
